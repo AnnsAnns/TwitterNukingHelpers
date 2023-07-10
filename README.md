@@ -8,6 +8,7 @@ Please do not use these, pay $42k for API access instead, otherwise it would mak
 
 ### How to use:
 
+1. Use Chrome. I'd normally not recommend Chrome but the web console works differently in Firefox and Chrome and as such there might be some issues when using Firefox.
 1. Visit the relevant page, e.g. https://twitter.com/USERNAME/likes or https://twitter.com/USERNAME
 1. Paste the script into your web console.
 1. Wait for the script to finish. This might take a long time depending on the amount of tweets/retweets/likes you have.
