@@ -11,6 +11,7 @@ while(true) {
   hearts.forEach(h => h.click())
   window.scrollTo(0, document.body.scrollHeight ||document.documentElement.scrollHeight);
   requests += 1;
+  await new Promise(r => setTimeout(r, 1000));
 
   if (requests >= 895) {
     requests = 0;
